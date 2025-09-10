@@ -72,6 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   Row(children: [Text('รหัสผ่าน')]),
                   TextField(
+                    obscureText: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
                         borderSide: BorderSide(width: 1),

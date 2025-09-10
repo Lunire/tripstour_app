@@ -107,14 +107,14 @@ class _ShowTripPageState extends State<ShowTripPage> {
               Expanded(
                 child: SingleChildScrollView(
                   child: Padding(
-                    padding: const EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(5),
                     child: Column(
                       children:
                           tripGetResponses
                               .map(
                                 (e) => Card(
                                   child: Padding(
-                                    padding: const EdgeInsets.all(10),
+                                    padding: const EdgeInsets.all(5),
                                     child: Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
@@ -178,7 +178,7 @@ class _ShowTripPageState extends State<ShowTripPage> {
                                                     );
                                                   },
                                                   child: const Text(
-                                                    'รายละเอียดเพิ่มเติม',
+                                                    'รายละเอียด',
                                                   ),
                                                 ),
                                               ],
